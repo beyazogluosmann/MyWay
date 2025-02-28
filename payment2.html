@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyWay | Payment</title>
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="payment2.css" />
+</head>
+<body>
+    <nav class="navbar">
+        <h2 class="title" onclick="redirectToHome()" style="cursor: pointer;">MyWay</h2>
+        <ul class="menu">
+            <li class="active" onclick="redirectToHome()" style="cursor: pointer;">Products</li>
+            <li>CONTACT US</li>
+            <li>GIFTS</li>
+        </ul>
+        <ul class="menu__icons">
+            <li><i class="bi bi-person" onclick="redirectToLogin()"></i></li>
+            <li><i class="bi bi-search"></i></li>
+            <li class="basket__icon">
+                <i class="bi bi-bag"></i>
+                <span class="basket__count">2</span>
+            </li>
+        </ul>    
+    </nav>
+    <div class="payment-container">
+        <div class="total-price-box">
+            <h3><span id="total-price"></span></h3>
+        </div>
+        <form id="payment-form">
+            <div class="form-group">
+                <label for="card-number">Card Number</label>
+                <input type="text" id="card-number" name="card-number" placeholder="Enter your card number" required>
+            </div>
+            <div class="form-group">
+                <label for="expiration-date">Expiration Date</label>
+                <input type="text" id="expiration-date" name="expiration-date" placeholder="MM/YY" required>
+            </div>
+            <div class="form-group">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="Enter CVV" required>
+            </div>
+            <button type="submit" class="btn__purple">Pay Now</button>
+            <img class="img" src="https://cdn.shopify.com/shopifycloud/help/assets/manual/customize/payment-icons-272a8e3efc32826ca25fc692b7942ad62dc80775e2d6a000a7599393faa01b09.jpg" alt="cards">
+        </form>
+    </div>
+    <script src="./assets/toastr/toastr.min.js"></script>
+    <script src="payment2.js"></script>
+    <script>
+        
+    </script>
+</body>
+</html>

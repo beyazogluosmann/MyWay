@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    width: 100%;
+    height: 109vh;
+    background: linear-gradient(to top,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://www.avcilarbilgisayar.com/Yuklemeler/Kategoriler/avcilar-e-ticaret-site-tasarimi.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.navbar
+{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon
+{
+    width: 200px;
+    height: 70px;
+    float: left;
+}
+.logo{
+    color: #ff7200;
+    font-size: 60px;
+    width: 200%;
+    font-family: "Permanent Marker", cursive;
+    padding-left: 20px;
+    padding-top: 40px;
+    float: left;  
+}
+
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;   
+}
+.content h1{
+    font-size: 50px;
+    padding-left: 20px;
+    margin: 5%;
+    letter-spacing: 5px;   
+    padding-bottom: 10px;
+    padding-top: 20px;
+    
+}
+
+
+.form
+{
+    width: 250px;
+    height:405px;
+    background: linear-gradient(to top,rgba(229, 226, 226, 0.8),rgba(239, 237, 237, 0.8));
+    position: absolute;
+    top:-20px ;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px; 
+}
+.form h2{
+    background-color: #fff;
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    background:transparent;
+    width: 240px;
+    height: 35px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+.btn2{
+   width: 100px;
+    height: 40px;
+    background-color: black;
+    color: #fff;
+    border: 1px solid black;
+    margin-top: 13px;
+    font-size: 16px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    left: 70px;
+    position: relative;
+    cursor: pointer;
+}
+
+.form .link{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.form .link a{
+    text-decoration: none;
+    color: black;
+}
+
+.icons a.fa-brands{
+    color: black;
+    padding-left: 14px;
+    padding-top: 5px;
+    font-size: 30px;
+   
+}
+.icons {
+    display: flex;
+}
+
+.icons a {
+    margin-right: 15px;
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease; 
+    margin-top: 20px;
+}
+
+.icons a:hover {
+    color: orange; 
+}
+
+
+
+
